@@ -1,0 +1,9 @@
+#!/bin/bash
+# mkdir bash c js
+touch c/c_is_fun.c js/main.js js index.js
+touch bash/alx; echo "#!/bin/bash\necho 'ALX'"
+touch bash/school; echo "#!/bin/bash\necho 'School'"
+
+
+git status; git add .; git commit -m"Starting to code today, so cool"; git push origin master
+
